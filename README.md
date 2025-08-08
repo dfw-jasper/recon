@@ -39,6 +39,15 @@ chmod +x school_recon.sh
 
 Install dependencies:
 
+
+# Install Go (if not already installed)
+sudo apt install golang-go
+
+# Add Go binaries to PATH
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
+
 ```bash
 sudo apt update && sudo apt install curl whois nmap sslscan eyewitness python3-pip golang -y
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
@@ -53,6 +62,8 @@ chmod +x school_recon.sh
 ./school_recon.sh example.edu
 
 
-## ⚠️ Legal & Ethical Use
+# ⚠️ Legal & Ethical Use
      This tool is for educational and authorized use only. Always obtain written permission before scanning or probing any live
       system.
+# 🧠 Author
+ZUES (@dfw-jasper) Cybersecurity student, hardware hacker, and recon toolsmith 📍 Kumasi, Ghana 🔗 GitHub Profile
