@@ -47,6 +47,16 @@ sudo apt install golang-go
 echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
 source ~/.bashrc
 
+chmod +x school_recon.sh
+./school_recon.sh example.edu
+
+
+# ⚠️ Legal & Ethical Use
+     This tool is for educational and authorized use only. Always obtain written permission before scanning or probing any live
+      system.
+# 🧠 Author
+ZUES (@dfw-jasper) Cybersecurity student, hardware hacker, and recon toolsmith 📍 Kumasi, Ghana 🔗 GitHub Profile
+
 
 ```bash
 sudo apt update && sudo apt install curl whois nmap sslscan eyewitness python3-pip golang -y
@@ -57,13 +67,3 @@ go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/LukaSikic/subzy@latest
 go install github.com/ffuf/ffuf@latest
 pip3 install shodan
-
-chmod +x school_recon.sh
-./school_recon.sh example.edu
-
-
-# ⚠️ Legal & Ethical Use
-     This tool is for educational and authorized use only. Always obtain written permission before scanning or probing any live
-      system.
-# 🧠 Author
-ZUES (@dfw-jasper) Cybersecurity student, hardware hacker, and recon toolsmith 📍 Kumasi, Ghana 🔗 GitHub Profile
