@@ -21,6 +21,21 @@
 ---
 
 ## 📦 Requirements
+|__ subfinder
+├── resolved
+├── httpx
+├── nuclei
+├── subzy
+├── ffuf
+├── eyewitness
+└── shodan
+
+## 📦 Clone the School Recon Toolkit
+git clone https://github.com/yourusername/school-recon.git
+cd school-recon
+
+## 🛠️ Make the script executable
+chmod +x school_recon.sh
 
 Install dependencies:
 
@@ -33,3 +48,11 @@ go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/LukaSikic/subzy@latest
 go install github.com/ffuf/ffuf@latest
 pip3 install shodan
+
+chmod +x school_recon.sh
+./school_recon.sh example.edu
+
+
+## ⚠️ Legal & Ethical Use
+     This tool is for educational and authorized use only. Always obtain written permission before scanning or probing any live
+      system.
